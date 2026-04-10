@@ -1,0 +1,37 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Capa do projeto Refrative</title>
+  <desc id="desc">Ilustração de prototipagem, modelagem 3D e interface web em estética clean azul escuro.</desc>
+  <defs>
+    <linearGradient id="bg" x1="180" y1="90" x2="1460" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132335"/>
+      <stop offset="1" stop-color="#274152"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="330" y1="230" x2="740" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FB4D9"/>
+      <stop offset="1" stop-color="#40627D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <g opacity="0.12" stroke="#D7E0EA">
+    <path d="M120 150H1480"/>
+    <path d="M120 275H1480"/>
+    <path d="M120 400H1480"/>
+    <path d="M120 525H1480"/>
+    <path d="M120 650H1480"/>
+    <path d="M120 775H1480"/>
+  </g>
+  <path d="M365 250L585 180L785 315L575 395L365 250Z" fill="url(#shape)" fill-opacity="0.9"/>
+  <path d="M365 250V520L575 655V395L365 250Z" fill="#0D2238" stroke="#8FBBDC" stroke-width="6"/>
+  <path d="M575 395L785 315V585L575 655V395Z" fill="#173A5A" stroke="#8FBBDC" stroke-width="6"/>
+  <rect x="930" y="220" width="420" height="280" rx="26" fill="#F7F9FC" fill-opacity="0.08" stroke="#9CC4E2" stroke-width="4"/>
+  <rect x="970" y="270" width="340" height="24" rx="12" fill="#9CC4E2"/>
+  <rect x="970" y="325" width="220" height="18" rx="9" fill="#D7E0EA" fill-opacity="0.85"/>
+  <rect x="970" y="365" width="280" height="18" rx="9" fill="#D7E0EA" fill-opacity="0.6"/>
+  <rect x="970" y="405" width="170" height="18" rx="9" fill="#D7E0EA" fill-opacity="0.5"/>
+  <rect x="970" y="560" width="220" height="120" rx="24" fill="#0D2238" stroke="#9CC4E2" stroke-width="4"/>
+  <path d="M1035 635H1125" stroke="#7FB4D9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1180 635H1270" stroke="#7FB4D9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1110 600V670" stroke="#D7E0EA" stroke-width="8" stroke-linecap="round"/>
+  <text x="160" y="735" fill="#E6EDF5" font-family="IBM Plex Sans, Segoe UI, Arial, sans-serif" font-size="96" font-weight="700">PROJETO REFRATIVE</text>
+  <text x="165" y="798" fill="#A7BBCD" font-family="IBM Plex Sans, Segoe UI, Arial, sans-serif" font-size="34">IoT . CAD . K1 Max . Interface web embarcada</text>
+</svg>
