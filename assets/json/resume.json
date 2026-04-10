@@ -1,0 +1,147 @@
+{
+  "basics": {
+    "name": "João Augusto Carvalho Araújo",
+    "label": "Engenheiro da Computação | Sistemas Embarcados & IoT",
+    "image": "",
+    "email": "czjoaoaugustocz@gmail.com",
+    "summary": "Engenheiro da Computação com experiência em firmware crítico, IoT e integração hardware-software, atuando em Python e C/C++ para robótica, telemetria e MVPs de engenharia.",
+    "location": {
+      "city": "Fortaleza",
+      "countryCode": "BR",
+      "region": "CE"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joaoaugustocarvalho",
+        "url": "https://www.linkedin.com/in/joaoaugustocarvalho"
+      },
+      {
+        "network": "GitHub",
+        "username": "joaoaugustocz",
+        "url": "https://github.com/joaoaugustocz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Projeto CriarCE",
+      "position": "Embedded Engineer",
+      "location": "Fortaleza, CE",
+      "startDate": "2024-10-01",
+      "summary": "Desenvolvimento de soluções IoT, arquiteturas de borda e MVPs para inovação tecnológica.",
+      "highlights": [
+        "Liderança técnica em 10+ MVPs anuais com integração de 40+ sensores e atuadores.",
+        "Implementação de conectividade MQTT/HTTP, telemetria e IA embarcada.",
+        "Produção de 60+ documentações técnicas entre arquitetura, requisitos e relatórios."
+      ]
+    },
+    {
+      "name": "Centro de Robótica Farias Brito",
+      "position": "Mentor Líder de Robótica e P&D",
+      "location": "Fortaleza, CE",
+      "startDate": "2019-01-01",
+      "summary": "Mentoria de equipes de robótica competitiva e formação técnica aplicada.",
+      "highlights": [
+        "Mentoria de 80+ estudantes em 20+ equipes.",
+        "Formação de três equipes campeãs latino-americanas."
+      ]
+    },
+    {
+      "name": "Universidade de Fortaleza (UNIFOR)",
+      "position": "Engenheiro de Software Embarcado",
+      "location": "Fortaleza, CE",
+      "startDate": "2022-08-01",
+      "endDate": "2023-06-01",
+      "summary": "Atuação no projeto Elmo 2.0 com foco em firmware crítico para suporte respiratório.",
+      "highlights": [
+        "Integração de sensores médicos e validação funcional.",
+        "Coautoria em registro INPI para cálculo de volume tidal."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade de Fortaleza (UNIFOR)",
+      "location": "Fortaleza, CE",
+      "area": "Engenharia da Computação",
+      "studyType": "Bacharelado",
+      "startDate": "2022-01-01",
+      "endDate": "2025-12-01"
+    },
+    {
+      "institution": "Instituto Federal do Ceará (IFCE)",
+      "location": "Fortaleza, CE",
+      "area": "Engenharia Mecatrônica",
+      "studyType": "Bacharelado",
+      "startDate": "2022-08-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Tricampeão Latino-Americano de Robótica",
+      "date": "2024-01-01",
+      "awarder": "LARC / RoboCup",
+      "summary": "Títulos conquistados nas edições de 2019, 2022 e 2024."
+    },
+    {
+      "title": "Painelista Convidado",
+      "date": "2026-01-01",
+      "awarder": "Hack to Work 2026",
+      "summary": "Participação em painel sobre mercado de tecnologia e inovação."
+    }
+  ],
+  "publications": [
+    {
+      "name": "A Small, Smart, and Connected Educational Robot for University Classrooms",
+      "publisher": "Springer, Cham | Robotics in Education (LNNS 1544)",
+      "releaseDate": "2025-08-29",
+      "url": "https://doi.org/10.1007/978-3-031-98762-5_44",
+      "summary": "Capítulo publicado na Springer Nature sobre a plataforma robótica Baratinha."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linguagens",
+      "keywords": [
+        "C/C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [
+        "ESP32",
+        "STM32",
+        "PCBs"
+      ]
+    },
+    {
+      "name": "Core Skills",
+      "keywords": [
+        "Sistemas Embarcados",
+        "ROS",
+        "IoT",
+        "Integração Hardware-Software"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Prognos",
+      "summary": "Robô médico autônomo com ROS e C++."
+    },
+    {
+      "name": "Robô Baratinha",
+      "summary": "Plataforma modular de P&D com 7+ versões de PCB."
+    },
+    {
+      "name": "Projeto Refrative",
+      "summary": "Solução IoT com modelagem 3D e interface web embarcada."
+    },
+    {
+      "name": "Elmo 2.0",
+      "summary": "Firmware crítico para suporte respiratório e registro no INPI."
+    }
+  ]
+}

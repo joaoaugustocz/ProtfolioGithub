@@ -1,0 +1,143 @@
+cv:
+  name: João Augusto Carvalho Araújo
+  label: Engenheiro da Computação | Sistemas Embarcados & IoT
+  email: czjoaoaugustocz@gmail.com
+  location: Fortaleza, CE, Brazil
+  image: ""
+  summary: Engenheiro da Computação com experiência em firmware crítico, IoT e integração hardware-software. Atua com Python e C/C++, desenvolvimento de MVPs, telemetria, documentação técnica e robótica aplicada.
+
+  social_networks:
+    - network: GitHub
+      username: joaoaugustocz
+    - network: LinkedIn
+      username: joaoaugustocarvalho
+
+  sections:
+    Educação:
+      - institution: Universidade de Fortaleza (UNIFOR)
+        location: Fortaleza, CE
+        area: Engenharia da Computação
+        studyType: Bacharelado
+        start_date: 2022-01-01
+        end_date: 2025-12-01
+        highlights:
+          - Graduação concluída com foco em sistemas embarcados, software aplicado e robótica.
+
+      - institution: Instituto Federal do Ceará (IFCE)
+        location: Fortaleza, CE
+        area: Engenharia Mecatrônica
+        studyType: Bacharelado
+        start_date: 2022-08-01
+        highlights:
+          - Formação em andamento com ênfase em automação, eletrônica e integração eletromecânica.
+
+    Experiência:
+      - company: Projeto CriarCE
+        position: Embedded Engineer
+        location: Fortaleza, CE
+        start_date: 2024-10-01
+        summary: Python, IoT e arquiteturas de borda para MVPs e prototipagem acelerada.
+        highlights:
+          - Liderança técnica no desenvolvimento de 10+ MVPs anuais com integração de 40+ sensores e atuadores.
+          - Implementação de conectividade MQTT/HTTP, telemetria e aplicações de IA embarcada em soluções de inovação.
+          - Produção de 60+ documentações técnicas entre arquitetura, requisitos, relatórios e rastreabilidade.
+          - Gestão do versionamento e organização de múltiplos projetos simultâneos com Git.
+
+      - company: Centro de Robótica Farias Brito
+        position: Mentor Líder de Robótica e P&D
+        location: Fortaleza, CE
+        start_date: 2019-01-01
+        summary: Mentoria técnica, robótica competitiva e formação de equipes de alto desempenho.
+        highlights:
+          - Liderança e mentoria de 80+ estudantes distribuídos em 20+ equipes de robótica autônoma.
+          - Ensino aplicado de Python, C++, visão computacional, LiDAR e fusão de sensores em ambientes dinâmicos.
+          - Gestão de quatro equipes de alto rendimento com formação de três equipes campeãs latino-americanas.
+
+      - company: Universidade de Fortaleza (UNIFOR)
+        position: Engenheiro de Software Embarcado
+        location: Fortaleza, CE
+        start_date: 2022-08-01
+        end_date: 2023-06-01
+        summary: Projeto Elmo 2.0 na área de healthcare e suporte respiratório.
+        highlights:
+          - Desenvolvimento de firmware crítico com foco em tolerância a falhas, segurança do paciente e validação funcional.
+          - Integração de sensores médicos de precisão e rotinas de aquisição de dados sob testes de bancada.
+          - Coautoria no registro INPI BR 51 2023 004110 6 para software de cálculo de volume tidal em sistema respiratório fechado.
+
+    Habilidades:
+      - name: Linguagens
+        icon: fa-solid fa-code
+        keywords:
+          - C/C++
+          - Python
+      - name: Hardware
+        icon: fa-solid fa-microchip
+        keywords:
+          - ESP32
+          - STM32
+          - PCBs
+      - name: Core Skills
+        icon: fa-solid fa-gears
+        keywords:
+          - Sistemas Embarcados
+          - ROS
+          - IoT
+          - Integração Hardware-Software
+
+    Projetos:
+      - name: Prognos
+        summary: Robô médico autônomo orientado a ambientes hospitalares.
+        highlights:
+          - Navegação autônoma com ROS e C++.
+          - Integração de sensores complexos e tomada de decisão em tempo real.
+      - name: Robô Baratinha
+        summary: Plataforma modular de P&D para ensino e pesquisa em robótica e sistemas embarcados.
+        highlights:
+          - 7+ versões de PCB com arquitetura evolutiva.
+          - Publicação internacional na Springer Nature com DOI 10.1007/978-3-031-98762-5_44.
+      - name: Projeto Refrative
+        summary: Solução IoT com prototipagem física e interface web embarcada.
+        highlights:
+          - Modelagem 3D e fabricação com K1 Max.
+          - Controle local com HTML, CSS e JavaScript.
+      - name: Elmo 2.0
+        summary: Firmware crítico para dispositivo de suporte respiratório.
+        highlights:
+          - Segurança funcional, tolerância a falhas e registro no INPI.
+
+    Publicações:
+      - title: A Small, Smart, and Connected Educational Robot for University Classrooms
+        publisher: Springer, Cham | Robotics in Education (LNNS 1544)
+        releaseDate: 2025-08-29
+        url: https://doi.org/10.1007/978-3-031-98762-5_44
+        summary: Capítulo publicado na Springer Nature sobre a plataforma robótica Baratinha, validando a metodologia de pesquisa aplicada a ensino, IoT e sistemas embarcados.
+
+    Prêmios:
+      - title: Tricampeão Latino-Americano de Robótica
+        date: 2024-01-01
+        awarder: LARC / RoboCup
+        summary: 1º lugar em diferentes edições das competições latino-americanas de robótica, com títulos em 2019, 2022 e 2024.
+      - title: Painelista Convidado
+        date: 2026-01-01
+        awarder: Hack to Work 2026
+        summary: Participação como convidado em painel sobre tendências, desafios e mercado de tecnologia e inovação.
+
+    Certificações:
+      - name: AWS Cloud Practitioner Essentials
+        date: 2025-12-01
+        issuer: Amazon Web Services
+        icon: fa-solid fa-cloud
+      - name: Capacitação Profissional em Microeletrônica (80h)
+        date: 2025-07-01
+        issuer: Projeto PADIS / iRede
+        icon: fa-solid fa-microchip
+      - name: Programa de Formação de Monitores Acadêmicos (32h)
+        date: 2025-01-01
+        issuer: Universidade de Fortaleza
+        icon: fa-solid fa-graduation-cap
+
+    Idiomas:
+      - name: Português
+        summary: Nativo
+      - name: Inglês
+        summary: Intermediário-avançado

@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Capa do projeto Elmo 2.0</title>
+  <desc id="desc">Ilustração de firmware crítico e monitoramento respiratório em tons de azul e cinza espacial.</desc>
+  <defs>
+    <linearGradient id="bg" x1="170" y1="70" x2="1450" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1826"/>
+      <stop offset="1" stop-color="#1A3147"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="150" y="160" width="1300" height="580" rx="42" fill="#0F253A" stroke="#8FBBDC" stroke-opacity="0.2" stroke-width="4"/>
+  <rect x="250" y="260" width="1100" height="220" rx="26" fill="#091421" stroke="#9CC4E2" stroke-width="4"/>
+  <path d="M310 395H420L470 320L540 450L615 260L690 450L770 330H1020L1090 300L1160 395H1290" stroke="#8FBBDC" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g opacity="0.18" stroke="#D7E0EA">
+    <path d="M320 545H1280"/>
+    <path d="M320 595H1280"/>
+    <path d="M320 645H1280"/>
+  </g>
+  <rect x="320" y="560" width="260" height="110" rx="22" fill="#102A43"/>
+  <rect x="350" y="592" width="200" height="18" rx="9" fill="#9CC4E2"/>
+  <rect x="350" y="625" width="140" height="14" rx="7" fill="#D7E0EA" fill-opacity="0.7"/>
+  <circle cx="1180" cy="615" r="72" fill="#143A5C" stroke="#D7E0EA" stroke-width="8"/>
+  <circle cx="1180" cy="615" r="20" fill="#D7E0EA"/>
+  <text x="160" y="760" fill="#E6EDF5" font-family="IBM Plex Sans, Segoe UI, Arial, sans-serif" font-size="102" font-weight="700">ELMO 2.0</text>
+  <text x="165" y="820" fill="#A7BBCD" font-family="IBM Plex Sans, Segoe UI, Arial, sans-serif" font-size="34">Firmware critico . Healthtech . Validacao funcional . INPI</text>
+</svg>
