@@ -39,33 +39,6 @@ model_viewer: true
   </div>
 </div>
 
-<!-- ## Modelagem 3D e fabricacao
-
-<div class="project-story-grid project-story-grid--reverse">
-  <div class="project-story-copy">
-    <ul>
-      <li>Modelagem 3D do dispositivo com foco em iteracao rapida.</li>
-      <li>Fabricacao com <strong>K1 Max</strong>, explorando impressao de alta velocidade.</li>
-      <li>Ajuste fino entre mecanica, eletronica e interface local.</li>
-    </ul>
-    <p>
-      O placeholder abaixo foi reservado para render ou foto do corpo impresso, que tende a ser uma das
-      imagens mais fortes da historia visual do projeto.
-    </p>
-  </div>
-  <div class="project-story-visual">
-    {% include project-model-viewer.liquid
-      title="Modelo 3D interativo"
-      description="Este bloco usa o visualizador 3D do Google. Assim que o arquivo do invólucro estiver em .glb, o modelo pode ser girado, aproximado e explorado direto na página."
-      poster="assets/img/projects/refrative/product-render.svg"
-      alt="Modelo 3D do invólucro do Refrative"
-      caption="Slot preparado para o modelo 3D real do invólucro impresso."
-      asset_hint="assets/models/projects/refrative/product-model.glb"
-      ios_hint="assets/models/projects/refrative/product-model.usdz"
-    %}
-  </div>
-</div> -->
-
 ## Interface web e operacao local
 
 <div class="project-story-grid">
@@ -115,15 +88,6 @@ model_viewer: true
     zoomable=true
   %}
 </div>
-
-<!-- ## Video do projeto
-
-{% include project-video-panel.liquid
-  title="Demonstracao do fluxo completo"
-  description="Este espaco fica ideal para um video curto mostrando o dispositivo, a interface web e o ciclo de uso."
-  asset_hint="assets/video/projects/refrative/overview.mp4"
-  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
-%} -->
 
 ## Tecnologias e competencias aplicadas
 

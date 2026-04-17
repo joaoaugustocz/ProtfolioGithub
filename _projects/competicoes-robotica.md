@@ -2,7 +2,7 @@
 layout: page
 title: Competicoes de Robotica
 description: Quatro primeiros lugares latino-americanos e representacao do Brasil no RoboCup em Bordeaux, Salvador e Coreia do Sul.
-img: assets/img/projects/competicoes-robotica/image01.png
+img: assets/img/projects/competicoes-robotica/capa.jpeg
 importance: 0
 ---
 
@@ -101,7 +101,7 @@ importance: 0
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/competicoes-robotica/salvador-2025.svg"
+      path="assets/img/projects/competicoes-robotica/robo1.jpeg"
       alt="Placeholder para campanha internacional em Salvador"
       caption="Slot reservado para foto da equipe ou do evento em Salvador 2025."
       zoomable=true
@@ -129,7 +129,7 @@ importance: 0
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/competicoes-robotica/korea-2026.svg"
+      path="assets/img/projects/competicoes-robotica/robo2.jpeg"
       alt="Placeholder para representacao na Coreia do Sul"
       caption="Slot reservado para foto da classificacao ou da participacao em Incheon 2026."
       zoomable=true
@@ -154,7 +154,7 @@ importance: 0
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/competicoes-robotica/arena-team.svg"
+      path="assets/img/projects/competicoes-robotica/image01.png"
       alt="Placeholder para a equipe e arena de competicao"
       caption="Slot reservado para foto da equipe em arena, pits ou momento de prova."
       zoomable=true
@@ -173,7 +173,21 @@ importance: 0
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/competicoes-robotica/trophies.svg"
+    path="assets/img/projects/competicoes-robotica/Arena.jpeg"
+    alt="Equipe e robos em competicao"
+    caption="Robo durante competição em Vitória - ES."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/competicoes-robotica/image01.png"
+    alt="Equipe e robos em competicao"
+    caption="Foto de uma arena."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/competicoes-robotica/trofeus.jpeg"
     alt="Slot para foto dos trofeus"
     caption="Slot reservado para a foto dos trofeus e medalhas."
     compact=true
@@ -187,36 +201,27 @@ importance: 0
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/competicoes-robotica/salvador-2025.svg"
+    path="assets/img/projects/competicoes-robotica/robo1.jpeg"
     alt="Salvador 2025"
     caption="Representacao brasileira em Salvador."
     compact=true
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/competicoes-robotica/korea-2026.svg"
+    path="assets/img/projects/competicoes-robotica/robo2.jpeg"
     alt="Coreia do Sul 2026"
     caption="Classificacao para a campanha internacional na Coreia do Sul."
     compact=true
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/competicoes-robotica/arena-team.svg"
+    path="assets/img/projects/competicoes-robotica/Arena.jpeg"
     alt="Equipe na arena"
     caption="Equipe, pits ou bastidores de competicao."
     compact=true
     zoomable=true
   %}
 </div>
-
-## Video do projeto
-
-{% include project-video-panel.liquid
-  title="Runs, partidas e bastidores"
-  description="Se voce tiver video do Rescue Maze, da arena de Soccer ou do momento da premiacao, este bloco ja esta pronto para costurar melhor o storytelling."
-  asset_hint="assets/video/projects/competicoes-robotica/overview.mp4"
-  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
-%}
 
 ## Referencias oficiais
 
