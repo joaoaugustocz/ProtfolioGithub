@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Salvador 2025 placeholder</title>
+  <desc id="desc">Placeholder for RoboCup 2025 Salvador photo.</desc>
+  <rect width="1600" height="900" fill="#082f49"/>
+  <circle cx="1230" cy="240" r="80" fill="#f59e0b"/>
+  <rect x="0" y="650" width="1600" height="250" fill="#0f766e"/>
+  <path d="M180 620h280l-40-160h120l60 160h340l-90-250h120l110 250h240" fill="none" stroke="#e2e8f0" stroke-width="14"/>
+  <text x="160" y="220" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="78" font-weight="700">SALVADOR 2025</text>
+  <text x="160" y="310" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="36">Use a photo from the Brazilian world stage here.</text>
+</svg>

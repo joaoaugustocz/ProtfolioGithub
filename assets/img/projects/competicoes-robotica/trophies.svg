@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Trophies placeholder</title>
+  <desc id="desc">Placeholder for trophies and medals photo.</desc>
+  <rect width="1600" height="900" fill="#111827"/>
+  <g fill="#f59e0b" stroke="#fde68a" stroke-width="10">
+    <path d="M460 260h180v110c0 95-62 180-150 210-88-30-150-115-150-210V260h120z"/>
+    <path d="M980 260h180v110c0 95-62 180-150 210-88-30-150-115-150-210V260h120z"/>
+  </g>
+  <g fill="#e5e7eb" font-family="Arial, sans-serif">
+    <text x="140" y="170" font-size="74" font-weight="700">TROPHIES AND MEDALS</text>
+    <text x="140" y="260" font-size="36" fill="#fcd34d">Use a clean photo of cups, medals and certificates here.</text>
+    <text x="140" y="760" font-size="30" fill="#cbd5e1">assets/img/projects/competicoes-robotica/trophies.svg</text>
+  </g>
+</svg>

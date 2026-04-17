@@ -141,15 +141,6 @@ importance: 4
   %}
 </div>
 
-## Video do projeto
-
-{% include project-video-panel.liquid
-  title="Demonstracao em video"
-  description="A estrutura ja aceita video local ou embed externo. Se voce tiver uma demonstracao do dispositivo ou do monitoramento, basta colocar o arquivo no caminho abaixo."
-  asset_hint="assets/video/projects/elmo/overview.mp4"
-  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
-%}
-
 ## Tecnologias e competencias aplicadas
 
 <div class="project-chip-list">

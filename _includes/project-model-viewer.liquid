@@ -1,0 +1,58 @@
+<div class="project-model-panel">
+  {% if include.title %}
+    <h3 class="project-model-panel__title">{{ include.title }}</h3>
+  {% endif %}
+
+  {% if include.description %}
+    <p class="project-model-panel__description">{{ include.description }}</p>
+  {% endif %}
+
+  {% if include.path %}
+    <model-viewer
+      class="project-model-viewer"
+      src="{{ include.path | relative_url }}"
+      {% if include.poster %}
+        poster="{{ include.poster | relative_url }}"
+      {% endif %}
+      alt="{{ include.alt | default: include.title }}"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1"
+      exposure="1"
+      interaction-prompt="auto"
+      loading="lazy"
+      touch-action="pan-y"
+      {% if include.ar %}
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+      {% endif %}
+      {% if include.ios_src %}
+        ios-src="{{ include.ios_src | relative_url }}"
+      {% endif %}
+    ></model-viewer>
+
+    {% if include.caption %}
+      <p class="caption">{{ include.caption }}</p>
+    {% endif %}
+  {% else %}
+    <div class="project-model-panel__placeholder">
+      <p class="project-model-panel__placeholder-title">Visualizador 3D pronto</p>
+      {% if include.poster %}
+        {%
+          include figure.liquid
+          path=include.poster
+          alt=include.alt
+          caption=include.caption
+          class='project-model-panel__poster'
+        %}
+      {% endif %}
+      {% if include.asset_hint %}
+        <p>Adicione o modelo em <code>{{ include.asset_hint }}</code>.</p>
+      {% endif %}
+      <p>Formatos mais seguros aqui: <code>.glb</code> ou <code>.gltf</code>.</p>
+      {% if include.ios_hint %}
+        <p>Opcional para iPhone/iPad em AR: <code>{{ include.ios_hint }}</code>.</p>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

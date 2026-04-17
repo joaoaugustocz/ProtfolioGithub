@@ -2,8 +2,9 @@
 layout: page
 title: Projeto Refrative
 description: Inovação em IoT com modelagem 3D, K1 Max e interface web embarcada.
-img: assets/img/projects/refrative/hero.svg
+img: assets/img/projects/refrative/REfrativePrincipal.png
 importance: 3
+model_viewer: true
 ---
 
 <div class="project-story-intro">
@@ -30,7 +31,7 @@ importance: 3
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/refrative/hero.svg"
+      path="assets/img/projects/refrative/REfrativePrincipal.png"
       alt="Placeholder hero do Refrative"
       caption="Slot principal para foto do produto final ou render mais forte."
       zoomable=true
@@ -38,7 +39,7 @@ importance: 3
   </div>
 </div>
 
-## Modelagem 3D e fabricacao
+<!-- ## Modelagem 3D e fabricacao
 
 <div class="project-story-grid project-story-grid--reverse">
   <div class="project-story-copy">
@@ -53,14 +54,17 @@ importance: 3
     </p>
   </div>
   <div class="project-story-visual">
-    {% include project-media-panel.liquid
-      path="assets/img/projects/refrative/product-render.svg"
-      alt="Placeholder da modelagem 3D do Refrative"
-      caption="Slot reservado para render 3D ou foto do invólucro impresso."
-      zoomable=true
+    {% include project-model-viewer.liquid
+      title="Modelo 3D interativo"
+      description="Este bloco usa o visualizador 3D do Google. Assim que o arquivo do invólucro estiver em .glb, o modelo pode ser girado, aproximado e explorado direto na página."
+      poster="assets/img/projects/refrative/product-render.svg"
+      alt="Modelo 3D do invólucro do Refrative"
+      caption="Slot preparado para o modelo 3D real do invólucro impresso."
+      asset_hint="assets/models/projects/refrative/product-model.glb"
+      ios_hint="assets/models/projects/refrative/product-model.usdz"
     %}
   </div>
-</div>
+</div> -->
 
 ## Interface web e operacao local
 
@@ -78,7 +82,7 @@ importance: 3
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/refrative/web-interface.svg"
+      path="assets/img/projects/refrative/REfrativeTEla.jpeg"
       alt="Placeholder da interface web local do Refrative"
       caption="Slot reservado para print da interface local de configuracao e monitoramento."
       zoomable=true
@@ -90,28 +94,21 @@ importance: 3
 
 <div class="project-gallery">
   {% include project-media-panel.liquid
-    path="assets/img/projects/refrative/hero.svg"
+    path="assets/img/projects/refrative/REfrativePrincipal.png"
     alt="Hero do Refrative"
     caption="Imagem principal do produto."
     compact=true
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/refrative/product-render.svg"
+    path="assets/img/projects/refrative/Refrative021.png"
     alt="Modelagem 3D do Refrative"
     caption="Modelagem ou render 3D."
     compact=true
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/refrative/electronics-prototype.svg"
-    alt="Protótipo eletrônico do Refrative"
-    caption="Slot para hardware e prototipo em bancada."
-    compact=true
-    zoomable=true
-  %}
-  {% include project-media-panel.liquid
-    path="assets/img/projects/refrative/web-interface.svg"
+    path="assets/img/projects/refrative/REfrativeTEla.jpeg"
     alt="Interface web local do Refrative"
     caption="Interface embarcada para configuracao e monitoramento."
     compact=true
@@ -119,14 +116,14 @@ importance: 3
   %}
 </div>
 
-## Video do projeto
+<!-- ## Video do projeto
 
 {% include project-video-panel.liquid
   title="Demonstracao do fluxo completo"
   description="Este espaco fica ideal para um video curto mostrando o dispositivo, a interface web e o ciclo de uso."
   asset_hint="assets/video/projects/refrative/overview.mp4"
   embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
-%}
+%} -->
 
 ## Tecnologias e competencias aplicadas
 

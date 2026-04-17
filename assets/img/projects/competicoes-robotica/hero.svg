@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Robotics competitions hero placeholder</title>
+  <desc id="desc">Placeholder for the main competition photo with team and robots.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="90" y="90" width="1420" height="720" rx="42" fill="none" stroke="#93c5fd" stroke-width="4" opacity="0.5"/>
+  <text x="120" y="220" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="74" font-weight="700">COMPETICOES DE ROBOTICA</text>
+  <text x="120" y="310" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="34">Main team + robots + arena photo placeholder</text>
+  <text x="120" y="390" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Use a strong photo with the team, the robots and the competition setting.</text>
+  <circle cx="1120" cy="520" r="150" fill="#0f172a" stroke="#38bdf8" stroke-width="12"/>
+  <circle cx="1120" cy="520" r="58" fill="#e2e8f0"/>
+  <circle cx="1270" cy="520" r="110" fill="#1d4ed8"/>
+  <rect x="980" y="670" width="410" height="105" rx="24" fill="#0f172a" stroke="#93c5fd" stroke-width="6"/>
+  <text x="1005" y="735" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="30">assets/img/projects/competicoes-robotica/hero.svg</text>
+</svg>

@@ -41,6 +41,7 @@
 }
 
 .project-media-panel,
+.project-model-panel,
 .project-video-panel,
 .project-callout,
 .library-card {
@@ -51,15 +52,47 @@
 }
 
 .project-media-panel figure,
+.project-model-panel figure,
 .project-video-panel figure {
   margin-bottom: 0;
 }
 
 .project-media-panel img,
+.project-model-viewer,
 .project-video-panel video,
 .project-video-panel iframe {
   border-radius: 0.85rem;
   width: 100%;
+}
+
+.project-model-viewer {
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.16), transparent 42%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(30, 41, 59, 0.96));
+  min-height: 380px;
+}
+
+.project-model-panel__title {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-model-panel__description {
+  color: var(--global-text-color-light);
+  margin-bottom: 1rem;
+}
+
+.project-model-panel__placeholder {
+  background: rgba(39, 88, 130, 0.08);
+  border: 1px dashed rgba(39, 88, 130, 0.35);
+  border-radius: 0.85rem;
+  padding: 1rem;
+}
+
+.project-model-panel__placeholder-title {
+  color: var(--global-text-color);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
 }
 
 .project-media-panel__note {

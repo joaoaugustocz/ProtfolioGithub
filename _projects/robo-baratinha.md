@@ -2,7 +2,7 @@
 layout: page
 title: Robô Baratinha
 description: Plataforma modular de P&D com 7+ versões de PCB e publicação na Springer Nature.
-img: assets/img/projects/baratinha/hero.svg
+img: assets/img/projects/baratinha/Baratinha_V4_2024-May-16_03-23-39PM-000_CustomizedView13066292967.png
 importance: 2
 ---
 
@@ -31,7 +31,7 @@ importance: 2
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/baratinha/hero.svg"
+      path="assets/img/projects/baratinha/Baratinha_V4_2024-May-16_03-23-39PM-000_CustomizedView13066292967.png"
       alt="Hero placeholder da Baratinha"
       caption="Placeholder atual para a foto principal do robo fisico."
       note="Troque este arquivo por uma foto frontal ou 3/4 do robo montado para dar mais presenca ao card."
@@ -59,7 +59,7 @@ importance: 2
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/baratinha/pcb-3d.svg"
+      path="assets/img/projects/baratinha/BaratinhaImagemArtigo.png"
       alt="Placeholder do render 3D da PCB da Baratinha"
       caption="Slot reservado para o render 3D da PCB."
       zoomable=true
@@ -89,7 +89,7 @@ importance: 2
   </div>
   <div class="project-story-visual">
     {% include project-media-panel.liquid
-      path="assets/img/projects/baratinha/greece-presentation.svg"
+      path="assets/img/projects/baratinha/GreciaBaratinha.jpeg"
       alt="Placeholder da apresentacao na Grecia"
       caption="Slot reservado para a foto de apresentacao na Grecia."
       zoomable=true
@@ -115,7 +115,7 @@ importance: 2
     zoomable=true
   %}
   {% include project-media-panel.liquid
-    path="assets/img/projects/baratinha/pcb-3d.svg"
+    path="assets/img/projects/baratinha/BaratinhaImagemArtigo.png"
     alt="Placeholder da PCB 3D"
     caption="Render 3D da PCB."
     compact=true
@@ -135,8 +135,8 @@ importance: 2
 {% include project-video-panel.liquid
   title="Walkthrough do robo"
   description="Se voce tiver um video do robo andando, testando sensores ou explicando as placas, este espaco ja esta pronto."
-  asset_hint="assets/video/projects/baratinha/overview.mp4"
-  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
+  asset_hint="assets/video/projects/baratinha/BaratinhaV51.mp4"
+  embed_hint="https://www.youtube.com/watch?v=YognP_IVGvs&t=2s"
 %}
 
 ## Tecnologias e competencias aplicadas
