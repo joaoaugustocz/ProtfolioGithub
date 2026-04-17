@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Baratinha PCB 3D placeholder</title>
+  <desc id="desc">Placeholder for the 3D PCB render.</desc>
+  <rect width="1600" height="900" fill="#111827"/>
+  <polygon points="380,240 960,140 1260,350 690,450" fill="#0f766e" stroke="#99f6e4" stroke-width="8"/>
+  <polygon points="690,450 1260,350 1260,620 690,710" fill="#115e59" stroke="#99f6e4" stroke-width="8"/>
+  <polygon points="380,240 690,450 690,710 380,500" fill="#134e4a" stroke="#99f6e4" stroke-width="8"/>
+  <text x="150" y="220" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="72" font-weight="700">BARATINHA PCB 3D</text>
+  <text x="150" y="305" fill="#99f6e4" font-family="Arial, sans-serif" font-size="34">Render placeholder for the assembled board.</text>
+  <text x="150" y="760" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">assets/img/projects/baratinha/pcb-3d.svg</text>
+</svg>

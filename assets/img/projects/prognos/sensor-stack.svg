@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Prognos sensor stack placeholder</title>
+  <desc id="desc">Placeholder for sensors and perception stack.</desc>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <circle cx="420" cy="460" r="120" fill="#1d4ed8"/>
+  <circle cx="800" cy="460" r="120" fill="#0f766e"/>
+  <circle cx="1180" cy="460" r="120" fill="#7c3aed"/>
+  <g fill="#e2e8f0" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="420" y="470" font-size="34">LIDAR</text>
+    <text x="800" y="470" font-size="34">IMU</text>
+    <text x="1180" y="470" font-size="34">CAM</text>
+  </g>
+  <text x="190" y="200" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="70" font-weight="700">SENSOR STACK</text>
+  <text x="190" y="285" fill="#93c5fd" font-family="Arial, sans-serif" font-size="34">Replace with sensor wiring, rig photo or perception stack visualization.</text>
+</svg>

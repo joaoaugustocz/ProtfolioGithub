@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Prognos hospital context placeholder</title>
+  <desc id="desc">Placeholder for the robot in a hospital setting.</desc>
+  <rect width="1600" height="900" fill="#e2e8f0"/>
+  <rect x="120" y="120" width="360" height="660" rx="30" fill="#cbd5e1"/>
+  <rect x="560" y="120" width="360" height="660" rx="30" fill="#cbd5e1"/>
+  <rect x="1000" y="120" width="360" height="660" rx="30" fill="#cbd5e1"/>
+  <rect x="650" y="420" width="240" height="230" rx="24" fill="#1e293b" stroke="#38bdf8" stroke-width="10"/>
+  <circle cx="720" cy="700" r="60" fill="#1d4ed8"/>
+  <circle cx="820" cy="700" r="60" fill="#1d4ed8"/>
+  <text x="160" y="120" fill="#0f172a" font-family="Arial, sans-serif" font-size="68" font-weight="700">HOSPITAL CONTEXT PHOTO</text>
+</svg>

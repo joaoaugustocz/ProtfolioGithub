@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Refrative hero placeholder</title>
+  <desc id="desc">Placeholder for the main product image.</desc>
+  <rect width="1600" height="900" fill="#111827"/>
+  <rect x="270" y="220" width="1060" height="460" rx="48" fill="#1f2937" stroke="#93c5fd" stroke-width="8"/>
+  <text x="180" y="180" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="72" font-weight="700">REFRATIVE</text>
+  <text x="180" y="265" fill="#93c5fd" font-family="Arial, sans-serif" font-size="34">Product hero placeholder</text>
+  <text x="180" y="760" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">Replace with the final product or strongest prototype image.</text>
+</svg>

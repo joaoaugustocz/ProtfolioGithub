@@ -50,7 +50,12 @@ ninja.data = [{
           section: "News",},{id: "news-painelista-convidado-no-hack-to-work-2026-compartilhando-experiências-sobre-mercado-de-tecnologia-engenharia-aplicada-e-desenvolvimento-de-soluções-embarcadas",
           title: 'Painelista convidado no Hack to Work 2026, compartilhando experiências sobre mercado de tecnologia,...',
           description: "",
-          section: "News",},{id: "projects-elmo-2-0",
+          section: "News",},{id: "projects-bibliotecas",
+          title: 'Bibliotecas',
+          description: "Bibliotecas publicas em C/C++ e ferramentas embarcadas publicadas no GitHub, com snapshot semanal de metricas.",
+          section: "Projects",handler: () => {
+              window.location.href = "/ProtfolioGithub/projects/bibliotecas/";
+            },},{id: "projects-elmo-2-0",
           title: 'Elmo 2.0',
           description: "Firmware crítico para suporte respiratório com validação funcional e registro no INPI.",
           section: "Projects",handler: () => {
