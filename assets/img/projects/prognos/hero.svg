@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Prognos hero placeholder</title>
+  <desc id="desc">Placeholder for the main medical robot image.</desc>
+  <rect width="1600" height="900" fill="#0b1120"/>
+  <rect x="120" y="120" width="1360" height="660" rx="44" fill="none" stroke="#67e8f9" stroke-width="5" opacity="0.5"/>
+  <rect x="980" y="240" width="240" height="320" rx="28" fill="#1e293b" stroke="#a5f3fc" stroke-width="8"/>
+  <circle cx="1100" cy="630" r="90" fill="#1d4ed8"/>
+  <circle cx="1240" cy="630" r="90" fill="#1d4ed8"/>
+  <text x="170" y="230" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="72" font-weight="700">PROGNOS</text>
+  <text x="170" y="320" fill="#67e8f9" font-family="Arial, sans-serif" font-size="36">Medical robot hero placeholder</text>
+  <text x="170" y="405" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">Replace with the robot in a hospital or controlled indoor environment.</text>
+</svg>

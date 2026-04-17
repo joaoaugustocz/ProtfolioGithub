@@ -1,0 +1,43 @@
+owner: joaoaugustocz
+traffic_window_days: 14
+items:
+  - repo: mpu6050_FastAngles
+    title: mpu6050_FastAngles
+    url: https://github.com/joaoaugustocz/mpu6050_FastAngles
+    summary: Biblioteca em C++ para extracao rapida de angulos a partir do MPU6050 em cenarios de controle e robotica.
+    focus: Pensada para pipelines embarcados que exigem leitura previsivel de IMU e integracao rapida com firmware.
+    highlights:
+      - Acelera a etapa de orientacao em projetos com IMU.
+      - Reforca a linha de bibliotecas voltadas a robotica e sistemas embarcados.
+  - repo: SuperOTA
+    title: SuperOTA
+    url: https://github.com/joaoaugustocz/SuperOTA
+    summary: Biblioteca OTA extraida da plataforma Baratinha para atualizacao remota de dispositivos ESP32.
+    focus: Organiza a camada de update de firmware para manutencao de dispositivos em campo.
+    highlights:
+      - Reuso de codigo real de produto em uma biblioteca isolada.
+      - Foco em deploy, manutencao e suporte remoto.
+  - repo: LidarArray
+    title: LidarArray
+    url: https://github.com/joaoaugustocz/LidarArray
+    summary: Biblioteca em C++ para organizar leituras de arranjos de sensores lidar em plataformas moveis.
+    focus: Centraliza aquisicao e orquestracao de sensores de distancia para navegacao e percepcao embarcada.
+    highlights:
+      - Facilita integracao de multiplos sensores lidar.
+      - Conversa diretamente com stacks de robotica e navegacao.
+  - repo: update-c6
+    title: update-c6
+    url: https://github.com/joaoaugustocz/update-c6
+    summary: Utilitario para atualizar e diagnosticar firmware do coprocessador C6 em arquiteturas ESP32-P4 + C6.
+    focus: Enfatiza manutencao de firmware, observabilidade e suporte tecnico em plataformas heterogeneas.
+    highlights:
+      - Expande a linha de ferramentas focadas em firmware de baixo nivel.
+      - Ajuda em atualizacao e diagnostico de sistemas embarcados modernos.
+  - repo: TCS34725_WITH_ARDUINO_DUE
+    title: TCS34725_WITH_ARDUINO_DUE
+    url: https://github.com/joaoaugustocz/TCS34725_WITH_ARDUINO_DUE
+    summary: Adaptacao da biblioteca do sensor de cor TCS34725 para uso simultaneo de dois sensores no Arduino Due.
+    focus: Resolve uma limitacao pratica de integracao de sensores em uma placa usada em ensino e prototipagem.
+    highlights:
+      - Exemplo de customizacao de biblioteca para um hardware especifico.
+      - Mostra capacidade de ajuste fino em drivers e integracao eletronica.

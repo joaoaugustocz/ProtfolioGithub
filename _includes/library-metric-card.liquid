@@ -1,0 +1,57 @@
+{% assign item = include.item %}
+<article class="library-card">
+  <div class="library-card__header">
+    <div>
+      <h3 class="library-card__title">
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title | default: item.repo }}</a>
+      </h3>
+      {% if item.summary %}
+        <p class="library-card__summary">{{ item.summary }}</p>
+      {% endif %}
+    </div>
+    <a class="library-card__link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+
+  <div class="library-card__metrics">
+    <span class="metric-pill"><strong>{{ item.stars | default: 0 }}</strong> stars</span>
+    <span class="metric-pill"><strong>{{ item.forks | default: 0 }}</strong> forks</span>
+    <span class="metric-pill">
+      <strong>{{ item.primary_language | default: 'N/A' }}</strong> linguagem
+    </span>
+    <span class="metric-pill">
+      <strong>{% if item.pushed_at %}{{ item.pushed_at | date: '%d/%m/%Y' }}{% else %}sem snapshot{% endif %}</strong> ultimo push
+    </span>
+    {% if item.traffic and item.traffic.available %}
+      <span class="metric-pill">
+        <strong>{{ item.traffic.views_count | default: 0 }}</strong> views (14d)
+      </span>
+      <span class="metric-pill">
+        <strong>{{ item.traffic.clones_count | default: 0 }}</strong> clones (14d)
+      </span>
+    {% else %}
+      <span class="metric-pill metric-pill--muted">views/clones indisponiveis</span>
+    {% endif %}
+  </div>
+
+  {% if item.focus %}
+    <p class="library-card__focus">{{ item.focus }}</p>
+  {% endif %}
+
+  {% if item.highlights %}
+    <ul class="library-card__highlights">
+      {% for highlight in item.highlights %}
+        <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% unless item.traffic and item.traffic.available %}
+    <p class="library-card__traffic-note">
+      {% if item.traffic and item.traffic.reason %}
+        Snapshot de trafego indisponivel: {{ item.traffic.reason }}.
+      {% else %}
+        Snapshot de trafego ainda nao gerado.
+      {% endif %}
+    </p>
+  {% endunless %}
+</article>

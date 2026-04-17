@@ -1,0 +1,41 @@
+<div class="project-video-panel">
+  {% if include.title %}
+    <h3 class="project-video-panel__title">{{ include.title }}</h3>
+  {% endif %}
+
+  {% if include.description %}
+    <p class="project-video-panel__description">{{ include.description }}</p>
+  {% endif %}
+
+  {% if include.path %}
+    {%
+      include video.liquid
+      path=include.path
+      class='project-video-panel__player'
+      controls=true
+      poster=include.poster
+      title=include.title
+      alt=include.alt
+      caption=include.caption
+    %}
+  {% elsif include.embed %}
+    {%
+      include video.liquid
+      path=include.embed
+      class='project-video-panel__player'
+      title=include.title
+      alt=include.alt
+      caption=include.caption
+    %}
+  {% else %}
+    <div class="project-video-panel__placeholder">
+      <p class="project-video-panel__placeholder-title">Espaco pronto para video</p>
+      {% if include.asset_hint %}
+        <p>Adicione o arquivo em <code>{{ include.asset_hint }}</code>.</p>
+      {% endif %}
+      {% if include.embed_hint %}
+        <p>Ou substitua por um embed em <code>{{ include.embed_hint }}</code>.</p>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

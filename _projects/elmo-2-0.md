@@ -2,84 +2,164 @@
 layout: page
 title: Elmo 2.0
 description: Firmware crítico para suporte respiratório com validação funcional e registro no INPI.
-img: assets/img/projects/elmo/especial_covid_5_anos_capacete_elmo_34-32715691.jpg
+img: assets/img/projects/elmo/hero.jpg
 importance: 4
 ---
 
-O **Elmo 2.0** foi um projeto de **software embarcado aplicado à saúde**, concebido como evolução de uma tecnologia cearense de suporte respiratório não invasivo. Minha atuação esteve concentrada no desenvolvimento de **firmware crítico**, na **aquisição e processamento confiável de dados** e na **integração com sensores médicos**, em um contexto que exigia alta previsibilidade operacional, tolerância a falhas e rigor de validação.
+<div class="project-story-intro">
+  <p class="project-story-lead">
+    O <strong>Elmo 2.0</strong> foi um projeto de <strong>software embarcado aplicado à saúde</strong>,
+    concebido como evolução de uma tecnologia cearense de suporte respiratório não invasivo. Minha
+    atuação esteve concentrada em <strong>firmware crítico</strong>, <strong>aquisição confiável de
+    dados</strong> e <strong>integração com sensores médicos</strong>, em um contexto que exigia alta
+    previsibilidade operacional, tolerância a falhas e rigor de validação.
+  </p>
+</div>
 
-## Visão geral
+## Contexto e desafio
 
-O projeto partiu da necessidade de ampliar a capacidade de monitoramento do sistema ELMO por meio da incorporação de **sensores, alertas e processamento local de dados**, apoiando equipes de saúde no acompanhamento do paciente e na coleta estruturada de informações relevantes para uso assistencial e de pesquisa.
+<div class="project-story-grid">
+  <div class="project-story-copy">
+    <p>
+      O projeto partiu da necessidade de ampliar a capacidade de monitoramento do sistema ELMO por meio
+      da incorporacao de sensores, alertas e processamento local de dados, apoiando equipes de saude no
+      acompanhamento do paciente e na coleta estruturada de informacoes relevantes para uso assistencial
+      e de pesquisa.
+    </p>
+    <p>
+      Em termos de engenharia, isso significou trabalhar em uma base embarcada com requisitos proximos
+      aos de sistemas criticos: leitura robusta de sinais, tratamento de excecoes, comportamento
+      deterministico, organizacao do fluxo de aquisicao e validacao funcional em bancada.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/elmo/monitoring-context.png"
+      alt="Contexto de monitoramento do Elmo 2.0"
+      caption="Contexto de monitoramento e validacao funcional do sistema."
+      zoomable=true
+    %}
+  </div>
+</div>
 
-Em termos de engenharia, isso significou trabalhar em uma base embarcada com requisitos próximos aos de sistemas críticos: leitura robusta de sinais, tratamento de exceções, comportamento determinístico, organização do fluxo de aquisição e validação funcional em bancada.
+## Minha contribuicao
 
-## Minha contribuição
+<div class="project-story-grid project-story-grid--reverse">
+  <div class="project-story-copy">
+    <p>Atuei principalmente em quatro frentes:</p>
+    <ul>
+      <li>Firmware critico, com foco em robustez, previsibilidade e seguranca operacional.</li>
+      <li>Integracao de sensores medicos, estruturando aquisicao e tratamento de dados.</li>
+      <li>Rotinas de teste e validacao funcional, com verificacao do comportamento do dispositivo em bancada.</li>
+      <li>Base computacional para calculo e monitoramento, vinculada ao registro de software <strong>INPI BR 51 2023 004110-6</strong>.</li>
+    </ul>
+    <p>
+      Essa atuacao contribuiu para o desenvolvimento do programa de computador
+      <strong>"Calculo de Volume Tidal em Sistema Respiratorio Fechado"</strong>, registrado pela
+      Fundacao Edson Queiroz, com implementacao em <strong>C e C#</strong>.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/elmo/bench-validation.jpeg"
+      alt="Bancada do Elmo 2.0"
+      caption="Dispositivo e bancada usados em validacao e testes operacionais."
+      zoomable=true
+    %}
+  </div>
+</div>
 
-Atuei principalmente em quatro frentes:
+## Arquitetura e confiabilidade
 
-- **Firmware crítico**, com foco em robustez, previsibilidade e segurança operacional;
-- **Integração de sensores médicos**, estruturando a aquisição e o tratamento dos dados do sistema;
-- **Rotinas de teste e validação funcional**, com verificação do comportamento do dispositivo em bancada;
-- **Base computacional para cálculo e monitoramento**, vinculada ao registro de software **INPI BR 51 2023 004110-6**.
+<div class="project-story-grid">
+  <div class="project-story-copy">
+    <p>De forma resumida, a logica tecnica do projeto envolvia:</p>
+    <ol>
+      <li>captura de sinais a partir de sensores do sistema respiratorio;</li>
+      <li>tratamento e organizacao dos dados no firmware embarcado;</li>
+      <li>calculo de variaveis relevantes, incluindo rotinas ligadas a estimativa de volume tidal;</li>
+      <li>disponibilizacao das informacoes para monitoramento, analise e apoio a operacao.</li>
+    </ol>
+    <p>
+      Um dos pontos mais importantes foi o cuidado com testes de bancada e verificacao do comportamento
+      sob diferentes condicoes operacionais. Em vez de focar apenas em "funcionar", a preocupacao era
+      assegurar consistencia na leitura dos sinais, estabilidade da logica embarcada e clareza no fluxo
+      de dados.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/elmo/hero.jpg"
+      alt="Elmo 2.0 em contexto de uso"
+      caption="Imagem principal do projeto, associada ao contexto healthtech e a evolucao do monitoramento."
+      zoomable=true
+    %}
+  </div>
+</div>
 
-Essa atuação contribuiu para o desenvolvimento do programa de computador **“Cálculo de Volume Tidal em Sistema Respiratório Fechado”**, registrado pela Fundação Edson Queiroz, com implementação em **C e C#**.
-
-## Desafios de engenharia
-
-Projetos em saúde exigem um padrão de desenvolvimento diferente de protótipos convencionais. No Elmo 2.0, alguns desafios centrais foram:
-
-- garantir **aquisição estável de dados** em um ambiente sensível a ruído e variações de operação;
-- estruturar o firmware para favorecer **comportamento previsível** e reduzir riscos de falhas silenciosas;
-- apoiar a evolução do sistema para um modelo com **maior capacidade de monitoramento**;
-- contribuir para uma arquitetura capaz de sustentar **validação funcional**, rastreabilidade técnica e evolução incremental.
-
-## Arquitetura técnica
-
-De forma resumida, a lógica técnica do projeto envolvia:
-
-1. **captura de sinais** a partir de sensores do sistema respiratório;
-2. **tratamento e organização dos dados** no firmware embarcado;
-3. **cálculo de variáveis relevantes**, incluindo rotinas ligadas à estimativa de volume tidal;
-4. **disponibilização das informações** para monitoramento, análise e apoio à operação.
-
-## Validação e confiabilidade
-
-Um dos pontos mais importantes do projeto foi o cuidado com **testes de bancada** e com a verificação do comportamento do sistema sob diferentes condições operacionais. Em vez de focar apenas em “funcionar”, a preocupação era assegurar:
-
-- consistência na leitura dos sinais;
-- estabilidade da lógica embarcada;
-- clareza no fluxo de dados;
-- suporte à evolução do monitoramento do paciente.
-
-Essa experiência consolidou minha atuação em **integração hardware-software**, especialmente em cenários nos quais confiabilidade e qualidade de implementação são tão importantes quanto a própria funcionalidade.
-
-## Resultado e impacto
-
-O trabalho no Elmo 2.0 me deu experiência prática em um contexto real de **healthtech**, com requisitos concretos de segurança, validação e confiabilidade. Além do ganho técnico em firmware embarcado e integração de sensores, o projeto resultou em participação direta na base computacional de um software oficialmente registrado no INPI:
-
-**Cálculo de Volume Tidal em Sistema Respiratório Fechado**  
-**Processo:** BR 51 2023 004110-6
+<div class="project-callout">
+  <p class="project-callout__eyebrow">Registro e impacto</p>
+  <h3 class="project-callout__title">Participacao direta em software registrado no INPI</h3>
+  <p class="project-callout__body">
+    O trabalho no Elmo 2.0 consolidou minha experiencia em healthtech, firmware embarcado e integracao
+    hardware-software, culminando na base computacional do software
+    <strong>Calculo de Volume Tidal em Sistema Respiratorio Fechado</strong>, processo
+    <strong>BR 51 2023 004110-6</strong>.
+  </p>
+</div>
 
 ## Galeria do projeto
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px;">
-  <figure>
-    <img src="/assets/img/projects/elmo/ELmoFIsico.jpeg" alt="ELMO - imagem principal" style="width:100%; border-radius:12px;">
-    <figcaption>Imagem principal do dispositivo.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="especial_covid_5_anos_capacete_elmo_34-32715691.jpg" alt="ELMO com monitoramento" style="width:100%; border-radius:12px;">
-    <figcaption>Contexto de monitoramento e validação.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="Captura de tela 2026-04-17 000337.png" alt="Recorte do registro no INPI" style="width:100%; border-radius:12px;">
-    <figcaption>Recorte documental do registro de software vinculado ao projeto.</figcaption>
-  </figure>
+<div class="project-gallery">
+  {% include project-media-panel.liquid
+    path="assets/img/projects/elmo/hero.jpg"
+    alt="Hero do Elmo 2.0"
+    caption="Imagem principal do dispositivo."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/elmo/monitoring-context.png"
+    alt="Elmo em monitoramento"
+    caption="Contexto de monitoramento e validacao."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/elmo/bench-validation.jpeg"
+    alt="Bancada de validacao do Elmo"
+    caption="Bancada de testes e validacao funcional."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/elmo/inpi-record.png"
+    alt="Recorte do registro no INPI"
+    caption="Recorte documental do registro de software vinculado ao projeto."
+    compact=true
+    zoomable=true
+  %}
 </div>
 
-## Tecnologias e competências aplicadas
+## Video do projeto
 
-`C` `C#` `Firmware Embarcado` `Aquisição de Dados` `Integração de Sensores` `Testes de Bancada` `Healthtech` `Embedded Systems` `Hardware-Software Integration`
+{% include project-video-panel.liquid
+  title="Demonstracao em video"
+  description="A estrutura ja aceita video local ou embed externo. Se voce tiver uma demonstracao do dispositivo ou do monitoramento, basta colocar o arquivo no caminho abaixo."
+  asset_hint="assets/video/projects/elmo/overview.mp4"
+  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
+%}
+
+## Tecnologias e competencias aplicadas
+
+<div class="project-chip-list">
+  <span class="project-chip">C</span>
+  <span class="project-chip">C#</span>
+  <span class="project-chip">Firmware embarcado</span>
+  <span class="project-chip">Aquisicao de dados</span>
+  <span class="project-chip">Integracao de sensores</span>
+  <span class="project-chip">Testes de bancada</span>
+  <span class="project-chip">Healthtech</span>
+  <span class="project-chip">Embedded systems</span>
+  <span class="project-chip">Hardware-software integration</span>
+</div>

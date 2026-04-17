@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Baratinha PCB 2D placeholder</title>
+  <desc id="desc">Placeholder for the 2D PCB export.</desc>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <rect x="100" y="90" width="1400" height="720" rx="44" fill="#0b2a3b" stroke="#67e8f9" stroke-width="6"/>
+  <g stroke="#22d3ee" stroke-width="10" opacity="0.75">
+    <line x1="220" y1="240" x2="520" y2="240"/>
+    <line x1="220" y1="360" x2="760" y2="360"/>
+    <line x1="220" y1="480" x2="980" y2="480"/>
+    <line x1="220" y1="600" x2="700" y2="600"/>
+  </g>
+  <g fill="#e2e8f0" font-family="Arial, sans-serif">
+    <text x="180" y="210" font-size="72" font-weight="700">BARATINHA PCB 2D</text>
+    <text x="180" y="295" font-size="34" fill="#93c5fd">Use an exported top view of the board here.</text>
+    <text x="180" y="740" font-size="30">assets/img/projects/baratinha/pcb-2d.svg</text>
+  </g>
+</svg>

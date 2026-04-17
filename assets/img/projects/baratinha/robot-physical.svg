@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Baratinha physical robot placeholder</title>
+  <desc id="desc">Placeholder for the physical robot image.</desc>
+  <rect width="1600" height="900" fill="#0b1120"/>
+  <circle cx="520" cy="650" r="120" fill="#1d4ed8"/>
+  <circle cx="1080" cy="650" r="120" fill="#1d4ed8"/>
+  <rect x="430" y="270" width="760" height="280" rx="44" fill="#1e293b" stroke="#93c5fd" stroke-width="8"/>
+  <rect x="620" y="180" width="380" height="110" rx="26" fill="#0f172a" stroke="#38bdf8" stroke-width="8"/>
+  <text x="170" y="170" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="70" font-weight="700">PHYSICAL ROBOT PHOTO</text>
+  <text x="170" y="255" fill="#93c5fd" font-family="Arial, sans-serif" font-size="34">Replace with the robot assembled and ready for demos.</text>
+  <text x="170" y="800" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">assets/img/projects/baratinha/robot-physical.svg</text>
+</svg>

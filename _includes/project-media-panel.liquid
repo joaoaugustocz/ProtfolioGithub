@@ -1,0 +1,15 @@
+<div class="project-media-panel{% if include.compact %} project-media-panel--compact{% endif %}">
+  {%
+    include figure.liquid
+    path=include.path
+    alt=include.alt
+    caption=include.caption
+    class=include.class
+    loading=include.loading
+    sizes=include.sizes
+    zoomable=include.zoomable
+  %}
+  {% if include.note %}
+    <p class="project-media-panel__note">{{ include.note }}</p>
+  {% endif %}
+</div>

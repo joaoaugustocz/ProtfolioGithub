@@ -4,3 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - joaoaugustocz/mpu6050_FastAngles
+  - joaoaugustocz/SuperOTA
+  - joaoaugustocz/LidarArray
+  - joaoaugustocz/update-c6
+  - joaoaugustocz/TCS34725_WITH_ARDUINO_DUE

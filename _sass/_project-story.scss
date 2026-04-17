@@ -1,0 +1,208 @@
+/*******************************************************************************
+ * Narrative project pages and library metrics
+ ******************************************************************************/
+
+.project-story-intro {
+  margin-bottom: 2rem;
+}
+
+.project-story-lead {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.project-story-grid {
+  display: grid;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+
+.project-story-copy {
+  p:last-child,
+  ul:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.project-story-grid--reverse .project-story-copy {
+  order: 2;
+}
+
+.project-story-grid--reverse .project-story-visual {
+  order: 1;
+}
+
+@media (min-width: 900px) {
+  .project-story-grid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.9fr);
+  }
+}
+
+.project-media-panel,
+.project-video-panel,
+.project-callout,
+.library-card {
+  background: linear-gradient(180deg, rgba(31, 55, 84, 0.08), rgba(31, 55, 84, 0.03));
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.project-media-panel figure,
+.project-video-panel figure {
+  margin-bottom: 0;
+}
+
+.project-media-panel img,
+.project-video-panel video,
+.project-video-panel iframe {
+  border-radius: 0.85rem;
+  width: 100%;
+}
+
+.project-media-panel__note {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin: 0.75rem 0 0;
+}
+
+.project-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 2rem;
+}
+
+.project-callout {
+  margin: 1.5rem 0 2rem;
+}
+
+.project-callout__eyebrow {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.project-callout__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-callout__body {
+  margin-bottom: 0;
+}
+
+.project-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-chip {
+  background-color: rgba(39, 88, 130, 0.12);
+  border: 1px solid rgba(39, 88, 130, 0.24);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.92rem;
+  padding: 0.35rem 0.75rem;
+}
+
+.project-video-panel__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-video-panel__description {
+  margin-bottom: 1rem;
+}
+
+.project-video-panel__placeholder {
+  background: rgba(39, 88, 130, 0.08);
+  border: 1px dashed rgba(39, 88, 130, 0.35);
+  border-radius: 0.85rem;
+  color: var(--global-text-color-light);
+  padding: 1rem;
+}
+
+.project-video-panel__placeholder-title {
+  color: var(--global-text-color);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.library-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.library-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 2rem;
+}
+
+.library-card__header {
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.library-card__title {
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.library-card__summary,
+.library-card__focus,
+.library-card__traffic-note {
+  color: var(--global-text-color-light);
+}
+
+.library-card__summary {
+  margin-bottom: 0;
+}
+
+.library-card__link {
+  align-self: start;
+  background: rgba(39, 88, 130, 0.12);
+  border: 1px solid rgba(39, 88, 130, 0.2);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  padding: 0.35rem 0.75rem;
+  white-space: nowrap;
+}
+
+.library-card__metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.metric-pill {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.7rem;
+}
+
+.metric-pill--muted {
+  color: var(--global-text-color-light);
+}
+
+.library-card__highlights {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Baratinha hero placeholder</title>
+  <desc id="desc">Placeholder for the main robot photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="90" y="90" width="1420" height="720" rx="42" fill="none" stroke="#93c5fd" stroke-width="4" opacity="0.45"/>
+  <text x="120" y="250" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="76" font-weight="700">BARATINHA</text>
+  <text x="120" y="340" fill="#93c5fd" font-family="Arial, sans-serif" font-size="36">Main robot photo placeholder</text>
+  <text x="120" y="430" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Replace with a frontal or 3/4 photo of the physical robot.</text>
+  <circle cx="1180" cy="380" r="140" fill="#1e293b" stroke="#38bdf8" stroke-width="12"/>
+  <circle cx="1180" cy="380" r="58" fill="#0f172a" stroke="#e2e8f0" stroke-width="8"/>
+  <rect x="980" y="520" width="400" height="120" rx="26" fill="#0f172a" stroke="#93c5fd" stroke-width="6"/>
+  <text x="1015" y="595" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="34">assets/img/projects/baratinha/hero.svg</text>
+</svg>

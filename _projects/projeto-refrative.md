@@ -2,19 +2,141 @@
 layout: page
 title: Projeto Refrative
 description: Inovação em IoT com modelagem 3D, K1 Max e interface web embarcada.
-img: assets/img/project-refrative.svg
+img: assets/img/projects/refrative/hero.svg
 importance: 3
 ---
 
-O **Projeto Refrative** integra concepção de produto, prototipagem física e desenvolvimento de interface embarcada para uma solução IoT orientada a operação local e validação rápida. A proposta reuniu planejamento técnico, execução de testes e fabricação de componentes sob medida.
+<div class="project-story-intro">
+  <p class="project-story-lead">
+    O <strong>Projeto Refrative</strong> integrou concepcao de produto, prototipagem fisica e
+    desenvolvimento de interface embarcada para uma solucao IoT orientada a operacao local e validacao
+    rapida. Aqui, hardware, modelagem 3D e interface web trabalham como uma unica narrativa de produto.
+  </p>
+</div>
 
-## Escopo técnico
+## Produto, prototipo e engenharia aplicada
 
-- Concepção ponta a ponta do projeto, incluindo documentação, planejamento, lista de compras e ensaios de validação.
-- Modelagem 3D do dispositivo e fabricação com **K1 Max**, explorando impressão de alta velocidade e ajuste fino de prototipagem.
-- Desenvolvimento da interface local com **HTML, CSS e JavaScript**, permitindo configuração e monitoramento do sistema.
+<div class="project-story-grid">
+  <div class="project-story-copy">
+    <p>
+      O escopo envolveu documentacao, planejamento, lista de compras, testes e fabricacao de componentes
+      sob medida. Isso e valioso porque mostra dominio de engenharia ponta a ponta, e nao apenas de uma
+      camada isolada do sistema.
+    </p>
+    <p>
+      A pagina agora fica pronta para exibir render do produto, prototipo fisico e interface, amarrando
+      a historia do projeto em vez de depender so de texto corrido.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/refrative/hero.svg"
+      alt="Placeholder hero do Refrative"
+      caption="Slot principal para foto do produto final ou render mais forte."
+      zoomable=true
+    %}
+  </div>
+</div>
 
-## Resultado
+## Modelagem 3D e fabricacao
 
-- Solução embarcada com forte integração entre mecânica, eletrônica e software.
-- Fluxo completo de engenharia aplicado a um projeto de inovação em IoT.
+<div class="project-story-grid project-story-grid--reverse">
+  <div class="project-story-copy">
+    <ul>
+      <li>Modelagem 3D do dispositivo com foco em iteracao rapida.</li>
+      <li>Fabricacao com <strong>K1 Max</strong>, explorando impressao de alta velocidade.</li>
+      <li>Ajuste fino entre mecanica, eletronica e interface local.</li>
+    </ul>
+    <p>
+      O placeholder abaixo foi reservado para render ou foto do corpo impresso, que tende a ser uma das
+      imagens mais fortes da historia visual do projeto.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/refrative/product-render.svg"
+      alt="Placeholder da modelagem 3D do Refrative"
+      caption="Slot reservado para render 3D ou foto do invólucro impresso."
+      zoomable=true
+    %}
+  </div>
+</div>
+
+## Interface web e operacao local
+
+<div class="project-story-grid">
+  <div class="project-story-copy">
+    <p>
+      A interface local em HTML, CSS e JavaScript completa a narrativa: o projeto nao para no hardware,
+      mas chega ate a camada de configuracao, monitoramento e uso real. Isso reforca seu perfil
+      full-stack em produto embarcado.
+    </p>
+    <p>
+      Vale muito adicionar print da UI, foto do prototipo ligado e, se houver, video curto de fluxo
+      completo do dispositivo.
+    </p>
+  </div>
+  <div class="project-story-visual">
+    {% include project-media-panel.liquid
+      path="assets/img/projects/refrative/web-interface.svg"
+      alt="Placeholder da interface web local do Refrative"
+      caption="Slot reservado para print da interface local de configuracao e monitoramento."
+      zoomable=true
+    %}
+  </div>
+</div>
+
+## Galeria do projeto
+
+<div class="project-gallery">
+  {% include project-media-panel.liquid
+    path="assets/img/projects/refrative/hero.svg"
+    alt="Hero do Refrative"
+    caption="Imagem principal do produto."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/refrative/product-render.svg"
+    alt="Modelagem 3D do Refrative"
+    caption="Modelagem ou render 3D."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/refrative/electronics-prototype.svg"
+    alt="Protótipo eletrônico do Refrative"
+    caption="Slot para hardware e prototipo em bancada."
+    compact=true
+    zoomable=true
+  %}
+  {% include project-media-panel.liquid
+    path="assets/img/projects/refrative/web-interface.svg"
+    alt="Interface web local do Refrative"
+    caption="Interface embarcada para configuracao e monitoramento."
+    compact=true
+    zoomable=true
+  %}
+</div>
+
+## Video do projeto
+
+{% include project-video-panel.liquid
+  title="Demonstracao do fluxo completo"
+  description="Este espaco fica ideal para um video curto mostrando o dispositivo, a interface web e o ciclo de uso."
+  asset_hint="assets/video/projects/refrative/overview.mp4"
+  embed_hint="https://www.youtube.com/embed/SEU_VIDEO"
+%}
+
+## Tecnologias e competencias aplicadas
+
+<div class="project-chip-list">
+  <span class="project-chip">IoT</span>
+  <span class="project-chip">Modelagem 3D</span>
+  <span class="project-chip">K1 Max</span>
+  <span class="project-chip">HTML</span>
+  <span class="project-chip">CSS</span>
+  <span class="project-chip">JavaScript</span>
+  <span class="project-chip">Prototipagem fisica</span>
+  <span class="project-chip">Integracao produto-hardware-software</span>
+</div>
