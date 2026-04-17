@@ -55,6 +55,11 @@ ninja.data = [{
           description: "Bibliotecas publicas em C/C++ e ferramentas embarcadas publicadas no GitHub, com snapshot semanal de metricas.",
           section: "Projects",handler: () => {
               window.location.href = "/ProtfolioGithub/projects/bibliotecas/";
+            },},{id: "projects-competicoes-de-robotica",
+          title: 'Competicoes de Robotica',
+          description: "Quatro primeiros lugares latino-americanos e representacao do Brasil no RoboCup em Bordeaux, Salvador e Coreia do Sul.",
+          section: "Projects",handler: () => {
+              window.location.href = "/ProtfolioGithub/projects/competicoes-robotica/";
             },},{id: "projects-elmo-2-0",
           title: 'Elmo 2.0',
           description: "Firmware crítico para suporte respiratório com validação funcional e registro no INPI.",

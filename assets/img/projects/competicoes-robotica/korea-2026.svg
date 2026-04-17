@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korea 2026 placeholder</title>
+  <desc id="desc">Placeholder for RoboCup 2026 South Korea campaign.</desc>
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <circle cx="800" cy="420" r="180" fill="#ef4444"/>
+  <path d="M800 240a180 180 0 1 1 0 360 90 90 0 1 0 0-180 90 90 0 1 1 0-180z" fill="#2563eb"/>
+  <text x="170" y="160" fill="#0f172a" font-family="Arial, sans-serif" font-size="74" font-weight="700">INCHEON 2026</text>
+  <text x="170" y="245" fill="#334155" font-family="Arial, sans-serif" font-size="36">Use a qualification or international campaign image here.</text>
+  <text x="170" y="770" fill="#475569" font-family="Arial, sans-serif" font-size="30">assets/img/projects/competicoes-robotica/korea-2026.svg</text>
+</svg>
