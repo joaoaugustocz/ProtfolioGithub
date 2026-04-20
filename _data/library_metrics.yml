@@ -1,4 +1,4 @@
-generated_at: '2026-04-17T03:32:29Z'
+generated_at: '2026-04-20T05:41:55Z'
 traffic_window_days: 14
 items:
 - repo: mpu6050_FastAngles
@@ -20,7 +20,7 @@ items:
   updated_at: '2026-03-16T04:29:55Z'
   traffic:
     available: false
-    reason: token nao configurado
+    reason: Resource not accessible by integration
     views_count: 0
     views_uniques: 0
     clones_count: 0
@@ -44,7 +44,7 @@ items:
   updated_at: '2026-03-24T01:46:35Z'
   traffic:
     available: false
-    reason: token nao configurado
+    reason: Resource not accessible by integration
     views_count: 0
     views_uniques: 0
     clones_count: 0
@@ -64,11 +64,11 @@ items:
   stars: 2
   forks: 1
   primary_language: C++
-  pushed_at: '2026-04-04T04:49:03Z'
-  updated_at: '2026-04-10T15:04:18Z'
+  pushed_at: '2026-04-17T23:51:10Z'
+  updated_at: '2026-04-17T23:51:08Z'
   traffic:
     available: false
-    reason: token nao configurado
+    reason: Resource not accessible by integration
     views_count: 0
     views_uniques: 0
     clones_count: 0
@@ -93,7 +93,7 @@ items:
   updated_at: '2026-04-02T11:02:16Z'
   traffic:
     available: false
-    reason: token nao configurado
+    reason: Resource not accessible by integration
     views_count: 0
     views_uniques: 0
     clones_count: 0
@@ -119,7 +119,7 @@ items:
   updated_at: '2019-05-21T18:03:39Z'
   traffic:
     available: false
-    reason: token nao configurado
+    reason: Resource not accessible by integration
     views_count: 0
     views_uniques: 0
     clones_count: 0
