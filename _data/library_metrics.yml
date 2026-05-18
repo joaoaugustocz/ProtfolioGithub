@@ -1,4 +1,4 @@
-generated_at: '2026-05-11T06:40:02Z'
+generated_at: '2026-05-18T06:57:10Z'
 traffic_window_days: 14
 items:
 - repo: mpu6050_FastAngles
@@ -61,11 +61,11 @@ items:
   - Conversa diretamente com stacks de robotica e navegacao.
   full_name: joaoaugustocz/LidarArray
   description: null
-  stars: 3
+  stars: 4
   forks: 1
   primary_language: C++
   pushed_at: '2026-04-17T23:51:10Z'
-  updated_at: '2026-04-28T11:27:55Z'
+  updated_at: '2026-05-16T01:52:11Z'
   traffic:
     available: false
     reason: Resource not accessible by integration
