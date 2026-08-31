@@ -1,4 +1,4 @@
-generated_at: '2026-08-24T03:53:24Z'
+generated_at: '2026-08-31T09:22:51Z'
 traffic_window_days: 14
 items:
 - repo: mpu6050_FastAngles
@@ -62,7 +62,7 @@ items:
   full_name: joaoaugustocz/LidarArray
   description: null
   stars: 4
-  forks: 1
+  forks: 2
   primary_language: C++
   pushed_at: '2026-04-17T23:51:10Z'
   updated_at: '2026-05-16T01:52:11Z'
